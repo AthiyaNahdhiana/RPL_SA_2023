@@ -1,4 +1,0 @@
-3 Folder Assets :
-  - img : berisi gambar
-  - js : file javascript
-  - styles : file css
