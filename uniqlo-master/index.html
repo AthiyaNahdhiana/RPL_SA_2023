@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIQLO - Web Store</title>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="./assets/styles/swiper-bundle.min.css">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <!-- logo uniqlo -->
+        <a href="#" class="nav__logo">
+            <img src="./assets/img/logo_uniqlo_full.png" alt="" />
+        </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#news" class="nav__link">News</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Shop</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <button class="menu__close" id="menu-close"><i class='bx bx-x'></i></button>
+            </div>
+
+            <div class="nav__buttons">
+                <button class="search nav__button"><i class='bx bx-search'></i></button>
+                <button class="login nav__button"><i class='bx bx-user'></i></button>
+                <button class="shop nav__button"><i class='bx bx-cart'></i></button>
+                <button class="menu nav__button" id="btn-menu"><i class='bx bx-menu-alt-right'></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section home" id="home">
+            <div class="home__grid">
+                <div class="prod__item prod1">
+                    <img src="./assets/img/uniqlo_kolab hijab.jpg" alt="" class="prod__img">
+                    <div class="txt-content">
+                        <h1 class="title-product">New Products, Hijab Collection </h1>
+                        <a href="#" class="btn-shop">Shop now <i class='bx bx-right-arrow-alt icon-btn'></i></a>
+                    </div>
+                </div>
+
+                <div class="prod__item prod2">
+                    <img src="./assets/img/Models-UNIQLO-Casual.jpg" alt="" class="prod__img">
+                    <div class="txt-content">
+                        <h1 class="title-product">Latest Casual Collection</h1>
+                        <a href="#" class="btn-shop">Shop now <i class='bx bx-right-arrow-alt icon-btn'></i></a>
+                    </div>
+                </div>
+
+                <div class="prod__item prod3">
+                    <img src="./assets/img/baby_onsie.jpg" alt="" class="prod__img">
+                    <div class="txt-content">
+                        <h1 class="title-product">Baby Collection</h1>
+                        <a href="#" class="btn-shop">Shop now <i class='bx bx-right-arrow-alt icon-btn'></i></a>
+                    </div>
+
+                </div>
+
+                <div class="prod__item prod4">
+                    <img src="./assets/img/uniqlo_wanita-indo.jpg" alt="" class="prod__img">
+                    <div class="txt-content">
+                        <h1 class="title-product">Women Collection</h1>
+                        <a href="#" class="btn-shop">Shop now <i class='bx bx-right-arrow-alt icon-btn'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section popular" id="popular">
+            <h1 class="title__section">Popular Products</h1>
+            <p class="description__section"> Cek Produk terpopuler kami, untuk trend Fashion terbaru. </p>
+
+            <div class="swiper__content">
+                <div class="swiper popular__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                            <img src="./assets/img/popular1_shirt.jpg" alt="" class="img__slider">
+
+                            <i class='bx bx-heart icon-heart'></i>
+                            <div class="txt__content">
+                                <h2 class="name__slider">High Quality Cotton T-Shirt</h2>
+                                <p class="price__slider">Rp. 98.000 </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <img src="./assets/img/popular2_kemeja.jpg" alt="" class="img__slider">
+
+                            <i class='bx bx-heart icon-heart'></i>
+                            <div class="txt__content">
+                                <h2 class="name__slider">Women Long Sleeve Blouse</h2>
+                                <p class="price__slider">Rp. 114.000 </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <img src="./assets/img/uniqlo_sleveless dress.jpg" alt="" class="img__slider">
+
+                            <i class='bx bx-heart icon-heart'></i>
+                            <div class="txt__content">
+                                <h2 class="name__slider">Women Long Sleeve Blouse</h2>
+                                <p class="price__slider">Rp. 168.000 </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <img src="./assets/img/popular3_celana pendek.jpg" alt="" class="img__slider">
+
+                            <i class='bx bx-heart icon-heart'></i>
+                            <div class="txt__content">
+                                <h2 class="name__slider">Men Short Pants</h2>
+                                <p class="price__slider">Rp. 104.000 </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <img src="./assets/img/uniqlo_mens jaket.jpg" alt="" class="img__slider">
+
+                            <i class='bx bx-heart icon-heart'></i>
+                            <div class="txt__content">
+                                <h2 class="name__slider">Men's Grey Jacket</h2>
+                                <p class="price__slider">Rp. 194.000 </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <img src="./assets/img/kids_cardigan.jpg" alt="" class="img__slider">
+
+                            <i class='bx bx-heart icon-heart'></i>
+                            <div class="txt__content">
+                                <h2 class="name__slider">Button Down Kids Cardigan</h2>
+                                <p class="price__slider">Rp. 94.000 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class='bx bx-chevron-left'></i>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section news" id="news">
+            <h1 class="title__section">Latest News</h1>
+            <p class="description__section">Berita terbaru tentang koleksi Uniqlo</p>
+
+            <div class="news__content">
+                <div class="news__item">
+                    <img src="./assets/img/news-xMarni.jpg" alt="" class="news__img">
+                    <div class="txt-content">
+                        <h3 class="title-product">Kolaborasi Uniqlo x Marni</h3>
+                        <a href="#" class="btn-shop">Read more <i class='bx bx-right-arrow-alt icon-btn'></i></a>
+                    </div>
+                </div>
+
+                <div class="news__item">
+                    <img src="./assets/img/news-xOnePiece.jpg" alt="" class="news__img">
+                    <div class="txt-content">
+                        <h3 class="title-product">One Piece Collection</h3>
+                        <a href="#" class="btn-shop">Read more <i class='bx bx-right-arrow-alt icon-btn'></i></a>
+                    </div>
+                </div>
+
+                <div class="news__item">
+                    <img src="./assets/img/Kolab-news-ayudia.jpg" alt="" class="news__img">
+                    <div class="txt-content">
+                        <h3 class="title-product">Kolaborasi Uniqlo dengan Ayudia C</h3>
+                        <a href="#" class="btn-shop">Read more <i class='bx bx-right-arrow-alt icon-btn'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="footer__content">
+                <div class="footer__group">
+                    <a href="#" class="logo">Uniqlo</a>
+                    <p class="description">UNIQLO adalah perusahaan Jepang yang menyediakan pakaian kasual untuk semua orang.</p>
+                </div>
+
+                <div class="footer__group">
+                    <h4 class="footer__title">Newsletter</h4>
+                    <p class="description">Daftar dan jadilah yang pertama mengetahui tentang pendatang baru, promosi, acara di dalam toko, dan banyak lagi.</p>
+                    <div class="input__content">
+                        <input class="input__email" type="email" placeholder="Email Address">
+                        <i class='bx bx-right-arrow-alt icon__email'></i>
+                    </div>
+                </div>
+
+                <div class="footer__group">
+                    <h4 class="footer__title">Contact Us</h4>
+                    <p class="contact__info">Layanan Pengaduan
+                        Konsumen UNIQLO Indonesia
+                        (001) 80332160290 <br> customersupport@uniqlo.co.id </p>
+                </div>
+
+                <div class="footer__group">
+                    <h4 class="footer__title">Follow Us</h4>
+                    <div class="social__links">
+                        <a href="https://www.twitter.com/" target="_blank" class="social__link"><i class='bx bxl-twitter social__icon'></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social__link"><i class='bx bxl-facebook social__icon'></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social__link"><i class='bx bxl-instagram social__icon'></i></a>
+                        <a href="https://www.pinterest.com.mx/" target="_blank" class="social__link"><i class='bx bxl-pinterest social__icon'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__copyright">
+                <p class="info__copy">&copy; 2023 <a href="https://github.com/JessArthuro" target="_blank" class="link__repo">Athiya Nahdhiana_A11.2020.13205</a> </p>
+
+                <div class="links__navegation">
+                    <a href="#home" class="link__navegation">Home</a>
+                    <a href="#popular" class="link__navegation">Popular</a>
+                    <a href="#news" class="link__navegation">News</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+    <!-- JS Files -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
